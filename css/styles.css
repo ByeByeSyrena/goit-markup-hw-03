@@ -50,7 +50,7 @@ body {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
@@ -63,6 +63,10 @@ body {
   padding: 24px 0;
   gap: 40px;
   display: flex;
+}
+
+.menu-item {
+  padding: 24px 0;
 }
 
 .adress-menu {
