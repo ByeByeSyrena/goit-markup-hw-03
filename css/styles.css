@@ -50,8 +50,7 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -61,9 +60,9 @@ body {
 }
 
 .menu {
+  padding: 24px 0;
   gap: 40px;
   display: flex;
-  padding-left: 0;
 }
 
 .adress-menu {
@@ -316,7 +315,7 @@ body {
 }
 
 .third-section-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* Forth Section */
