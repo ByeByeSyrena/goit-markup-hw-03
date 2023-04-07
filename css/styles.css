@@ -10,6 +10,12 @@
 
 /* backgrounds & tags */
 
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .card {
   background: var(--back-color);
 }
@@ -44,8 +50,6 @@ body {
 .header-content {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .container {
@@ -60,8 +64,7 @@ body {
 }
 
 .menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-left: 0;
   gap: 40px;
   display: flex;
 }
