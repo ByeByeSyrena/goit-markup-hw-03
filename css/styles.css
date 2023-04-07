@@ -60,13 +60,14 @@ body {
 }
 
 .menu {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
   display: flex;
 }
 
 .menu-item {
-  padding: 0 24px 0 24px;
+  padding: 24px 0 24px 0;
 }
 
 .adress-menu {
@@ -335,11 +336,12 @@ body {
 
 .forth-section-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .forth-section-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .forth-item-content {
