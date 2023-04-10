@@ -45,7 +45,6 @@ body {
 /* Header */
 
 .top {
-  display: flex;
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -247,7 +246,7 @@ body {
 }
 
 .btn {
-  margin-left: 179px;
+  margin: 0 auto;
   padding: 16px 32px;
   display: block;
   min-width: 169px;
@@ -382,7 +381,8 @@ body {
 /* Portfolio page */
 
 .portf-main-section {
-  padding: 96px 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portf-nav {
